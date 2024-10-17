@@ -1,0 +1,682 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.right a{
+    text-decoration: none;
+    color: rgb(53, 53, 51);
+    font-weight: 700;
+}
+.right{
+    text-decoration: none;
+    font-size: 22px;
+}
+.start{
+    height: 20cm;
+    width: 100%;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 98% ;
+    position: relative;
+}
+.nav {
+    position: absolute;
+    color: rgb(24, 24, 24);
+    font-family:  "Jost", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    height: 1.8cm;
+    width: 100%;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 25px -15px rgb(0,0,0.1);
+}
+
+.nav p{
+    font-size: 22px;
+}
+.right{
+    display: flex;
+    margin-left: 17cm;
+    justify-content: space-around;
+}
+.right a{
+    margin-left: 30px;
+    font-size: 18px;
+}
+.right a:hover{
+    color: black;
+    cursor: pointer;
+    border-bottom: 3px solid black;
+}
+.profile img{
+    height: 6cm;
+    width: 6cm;
+    margin-top: 5cm;
+    margin-left: 16cm;
+
+}
+.profile h2{
+    margin-left: 17.4cm;
+    margin-top: 17px;
+}
+.profile p{
+   
+    margin-left: 13cm;
+    margin-top: 30px;
+    font-family: "Jost", sans-serif;;
+    color:rgb(35, 29, 29);
+    width: 13cm;
+    text-align: center;
+}
+.profile .btn{
+    margin-left: 17.2cm;
+    margin-top: 30px;
+    height: 1.5cm;
+    width: 4cm;
+    font-family:"Jost", sans-serif ;
+    font-size: 17px;
+    border-radius: 15px;
+    background-color: rgb(46, 244, 244);
+}
+.about{
+    font-family:"Jost", sans-serif ;
+    height: 18.5cm;
+    margin: 0;
+   
+}
+
+.about p{
+    color: rgb(51, 53, 53);
+    font-weight: 400;
+    
+    margin-top: 1cm;
+    margin-left: 20cm
+}
+.about h2{
+    padding-top: 1cm;
+    margin-left: 1cm;
+}
+.about img{
+    float: left;
+    margin-left: 5cm;
+    height: 10cm;
+    border-radius: 20px;
+    margin-top: 2cm;
+    box-shadow: 10px 10px 25px -15px rgb(0,0,0.1);
+}
+.pro{
+    padding-top: 0.5cm;
+    height: 20cm;
+    font-family:"Jost", sans-serif ;
+    
+}
+.pro h1{
+    margin-top:1cm;
+    padding-left: 1.5cm;
+}
+.pro img{
+    height: 6cm;
+    width: 10cm;
+    margin-left: 2cm;
+    margin-top: 1cm;
+    box-shadow: 10px 10px 25px -15px rgb(0,0,0.1);
+
+}
+.pro h3{
+    margin-top: 1cm;
+    text-align: center;
+}
+.mage{
+    margin-left: 6cm;
+    margin-bottom: 1cm;
+}
+.btn1{
+    height: 1.5cm;
+    width: 3cm;
+    border-radius: 20px;
+    background-color:rgb(46, 244, 244) ;
+    margin-left: 5cm;
+    margin-top: 2cm;
+    font-family: "Jost", sans-serif ;
+    font-weight: 400;
+}
+.btn1:hover{
+    background-color:rgb(182, 75, 182);
+    color: white;
+}
+.btn:hover{
+    background-color:rgb(182, 75, 182);
+    color: white;
+}
+.h2{
+    font-size: 22px;
+}
+.about{
+    background:line;
+}
+.hob{
+    font-family: "Jost", sans-serif    ;
+    height:19cm;
+    background-size: cover;
+}
+.hob h2{
+    margin-left: 1cm;
+}
+.con{
+    background-image: url(images/lastbg.jpeg);
+    margin-top:1cm;
+    background-attachment: local;
+    font-family:  "Jost", sans-serif ;
+    height: 19.3cm;
+}
+.lastp{
+    text-align: center;
+    width: 15cm;
+    margin-top:20px;
+    margin-left: 380px;
+    
+}
+.end h2{
+    text-align: center;
+   padding-top: 1.5cm
+}
+.left1{
+    height: 12cm;
+    width: 18cm;
+    background-color: white;
+    margin-left: 5cm;
+    margin-top: 1.6cm;
+    box-shadow: 10px 10px 25px -15px rgb(0,0,0.1);
+    border-radius: 10px;
+    
+}
+.grid{
+display: flex;
+flex-direction: left;
+}
+.i1{
+    width: 7cm;
+    margin-top: 1.5cm;
+    margin-left: 1.5cm;
+    height: 1cm;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-family:  "Jost", sans-serif ;
+    border: 2px solid rgb(230, 227, 227);
+    color: rgb(149, 145, 145);
+}
+.i2{
+    height: 1cm;
+    width: 7cm;
+    margin-left: 0.5cm;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(230, 227, 227);
+    color: rgb(149, 145, 145);
+    font-family:  "Jost", sans-serif ;
+}
+.i3{
+    height: 1cm;
+    margin-top: 1cm;
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+    width: 15cm;
+    padding-left: 10px;
+    font-family:  "Jost", sans-serif ;
+    border-radius: 10px;
+    border: 2px solid rgb(230, 227, 227);
+    color: rgb(149, 145, 145);
+}
+.i4{
+    height: 3cm;
+    margin-top: 1cm;
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+    width: 15cm;
+    font-family:  "Jost", sans-serif ;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(230, 227, 227);
+    color: rgb(149, 145, 145);
+    
+}
+.i5{
+    margin-left: 1.5cm;
+    font-family:  "Jost", sans-serif ;
+    margin-top: 1cm;
+    width: 3cm;
+    height: 1cm;
+    background-color:rgb(46, 244, 244);
+    border-radius: 10px;
+    border: 2px solid rgb(230, 227, 227);
+   
+}
+.i5:hover{
+    background-color:rgb(182, 75, 182);
+    color: fff;
+    
+    
+}
+.phone i{
+    margin-right: 25px;
+}
+.phone h3{
+    margin-top: 5cm;
+    margin-left: 3cm;
+}
+.phone svg{
+    width: 0.5cm;
+    margin-right: 25px;
+}
+.phone span{
+    color: rgb(115, 120, 120);
+    width: 100%;
+    margin-left: 4cm;
+}
+.mail{
+    margin-top:1cm;
+    margin-left: 3cm;
+}
+.mail i{
+    margin-right:25px ;
+}
+.mail span{
+    margin-left: 1cm;
+    color: rgb(115, 120, 120);
+}
+.loc h3{
+    margin-top:1cm;
+    margin-left: 3cm;
+}
+.loc i{
+    margin-right:25px ;
+}
+.loc span{
+    margin-left: 4cm;
+    color: rgb(115, 120, 120);
+}
+.foot{
+    margin-top: 1.5cm;
+    height: 1.5cm;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot span{
+    color: fff;
+    font-family:"Jost", sans-serif  ;
+    font-size: 14px;
+}
+.para {
+    margin-left: 0cm;
+ }
+ .para1 i {
+    margin-left: 0cm;
+ }
+.foot i{
+    color: white;
+}
+.foot .spa1{
+    margin-left:10px;
+}
+.foot .spa2{
+    margin-left:10px;
+}
+.foot .spa3{
+    margin-left:10px;
+}
+.spa{
+    margin-left: 0cm;
+}
+.hob{
+    height: 19cm;
+}
+.hob h2{
+    font-family: "Jost", sans-serif ;
+    padding-top: 1cm;
+}
+.types{
+   
+    font-family: "Jost", sans-serif;
+}
+.types p{
+    margin-left: 3cm;
+    margin-top: 0.7cm;
+}
+.types i{
+    margin-right: 10px;
+}
+@media(max-width:1230px){
+    body{
+        width: 100%;
+    }
+    .left h2{
+        font-size: 16px;
+    }
+    .right{
+        margin-left: 2cm;
+    }
+    .about p{
+        margin-left: 18cm;
+    }
+    .lastp{
+        margin-left: 8.5cm;
+    }
+    .left1{
+        margin-left: 3cm;
+    }
+}
+@media(max-width:800px){
+    .profile img{
+        margin-left: 8cm;
+    }
+    .profile h2{
+        margin-left: 9.5cm;
+    }
+    .profile p{
+        margin-left: 5cm;
+    }
+    .profile .btn{
+        margin-left: 9cm;
+    }
+    .about img{
+        height: 6cm;
+        margin-left: 3cm;
+    }
+    .about p{
+        margin-left: 10cm;
+        font-size: 14px;
+        width: 9cm;
+    }
+    .btn1{
+        margin-left: 10cm;
+        margin-top: 1cm;
+    }
+    .hob{
+        height: 900px;
+    }
+    .hob h2{
+        font-size: 18px;
+    }
+    .hob p{
+        font-size: 14px;
+        width: 10cm;
+    }
+    .pro h1{
+        font-size: 25px;
+    }
+    .pro img{
+        height:3cm ;
+        width: 5cm;
+        margin-left: 2cm;
+        margin-top: 2cm;
+    }
+    .mage{
+        margin-left: 3cm;
+        margin-bottom: 1cm;
+    }
+    .pro h3{
+        margin-top: 2cm;
+    }
+    .lastp{
+        padding-left:100px ;
+    }
+    .left1{
+        width: 10cm;
+        margin-left: 2cm;
+        margin-top: 1.6cm;
+        box-shadow: 10px 10px 25px -15px rgb(0,0,0.1);
+        border-radius: 10px;
+        
+    }
+    .phone  h3{
+        margin-left: 2cm;
+    }
+    .phone span{
+        margin-left: 110px;
+        
+    }
+    .mail {
+        margin-left: 2cm;
+    }
+    .mail span{
+        width: 5cm;
+        padding-left: 0;
+    }
+    .loc h3{
+        margin-left: 2cm;
+    }
+    .loc span{
+        margin-left: 110px;
+    }
+    .con h2{
+        font-size: 18px;
+    }
+    .con p{
+        margin-left: 2.8cm;
+        font-size: 12px;
+        width: 10cm;
+    }
+    .left1{
+        margin-left: 1cm;
+        width: 9cm;
+    }
+    .left1 .i1{
+        margin-left: 0.5cm;
+        width: 3.6cm;
+        font-size: 12px;
+    }
+    .i2{
+        width: 3.6cm;
+        font-size: 12px;
+    }
+    .i3{
+        margin-left: 0.5cm;
+        width: 7.8cm;
+        font-size: 12px;
+    }
+    .i4{
+        margin-left: 0.5cm;
+        width: 7.8cm;
+        font-size: 12px;
+    }
+    .i5{
+
+        width: 2cm;
+        font-size: 12px;
+        margin-left: 0.5cm;
+    }
+    
+
+}
+@media(max-width:500px){
+    .left h2{
+        font-size: 14px;
+    }
+    .right a{
+        font-size: 14px;
+    }
+    .right{
+        margin-left: 0;
+    }
+    .profile img{
+        margin-left: 120px;
+    }
+    .profile h2{
+        margin-left:170px;
+    }
+    .profile p{
+        margin-left: 80px;
+        font-size: 12px;
+        width: 300px;
+    }
+    .profile .btn{
+        margin-left: 180px;
+        height:40px;
+        width: 100px;
+        border-radius: 15px;
+    }
+    .about h2{
+        font-size: 20px;
+    }
+    .about img{
+        height: 4cm;
+        margin-left: 1cm;
+        margin-top: 150px;
+    }
+    .about p{
+        margin-left: 220px;
+        font-size: 12px;
+        width: 6.5cm;
+    }
+    .btn1{
+        margin-left: 220px;
+        height:40px;
+        width: 100px;
+        border-radius: 15px;
+    }
+    .hob{
+        height: 800px;
+    }
+    .hob h2{
+        font-size: 14px;
+    }
+    .hob p{
+        font-size: 12px;
+        width: 10cm;
+        margin-left: 50px;
+    }
+    .pro{
+        height: 600px;
+    }
+    .pro h1{
+        font-size: 20px;
+        margin-top: 1cm;
+    }
+    .pro img{
+        height:2cm ;
+        width: 4cm;
+        margin-left: 50px;
+        margin-top: 2cm;
+    }
+    .mage{
+        margin-left:0;
+        margin-bottom: 1cm;
+    }
+    .pro h3{
+        margin-top: 2cm;
+        font-size: 14px;
+    }
+    .end .lastp{
+        margin-left: 50px;
+        padding-left: 0;
+        
+    }
+    .left1{
+        width: 10cm;
+        height: 8cm;
+        margin-left: 2cm;
+        margin-top: 1.6cm;
+        box-shadow: 10px 10px 25px -15px rgb(0,0,0.1);
+        border-radius: 10px;
+        
+    }
+    .phone{
+        margin-left: 40px;
+    }
+    .phone  h3{
+        margin-top: 1cm;
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .phone span{
+       font-size:10px ;
+       margin-left: 0;  
+    }
+    .phone i{
+        margin-right: 10px;
+    }
+    .mail {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .mail span{
+        font-size: 10px;
+        width: 5cm;
+        margin-left: 0;
+    }
+    .mail i{
+        margin-right: 10px;
+    }
+    .loc{
+        margin-left: 20px;
+    }
+    .loc h3{
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .loc span{
+        margin-left: 0;
+        font-size: 10px;
+    }
+    .loc i{
+        margin-right: 10px;
+    }
+    .con h2{
+        font-size: 18px;
+    }
+    .con p{
+        margin-left: 2.8cm;
+        font-size: 12px;
+        width: 10cm;
+    }
+    .left1{
+        margin-left: 2cm;
+        width: 9cm;
+    }
+    .left1 .i1{
+        margin-top: 20px;
+        margin-left: 0.5cm;
+        width: 3.6cm;
+        font-size: 12px;
+    }
+    .i2{
+        width: 3.6cm;
+        font-size: 12px;
+    }
+    .i3{ 
+        margin-top: 20px;
+        margin-left: 0.5cm;
+        width: 7.8cm;
+        font-size: 12px;
+    }
+    .i4{
+        padding-top: 10px;
+        margin-top: 20px;
+        margin-left: 0.5cm;
+        width: 7.8cm;
+        font-size: 12px;
+        height: 2cm;
+    }
+    .i5{
+        margin-top: 20px;
+        width: 2cm;
+        font-size: 12px;
+        margin-left: 0.5cm;
+    }
+    .grid{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .right1{
+        display: flex;
+        align-items: center;
+    }
+
+}
