@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family:"Jost", sans-serif ;
+}
 .right a{
     text-decoration: none;
     color: rgb(53, 53, 51);
